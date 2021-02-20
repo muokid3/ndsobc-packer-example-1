@@ -7,9 +7,9 @@
   "builders": [{
     "access_key": "{{user `aws_access_key`}}",
     "secret_key": "{{user `aws_secret_key`}}",
-    "ami_name": "bryan-k3s-server-{{timestamp}}",
+    "ami_name": "dennis-k3s-server-{{timestamp}}",
     "instance_type": "t3.large",
-    "region": "me-south-1",
+    "region": "eu-west-2",
     "source_ami_filter": {
       "filters": {
         "virtualization-type": "hvm",
